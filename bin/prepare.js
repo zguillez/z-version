@@ -29,5 +29,5 @@ replace({
 console.log(`=> Package update from version`.green, `${config.version}`.yellow, `to`.green, `${version.join('.')}`.yellow);
 shell.exec(`git add --all`);
 shell.exec(`git commit -m update`);
-shell.exec(`git push origin master`);
+shell.exec(`git push origin main`);
 console.log(`=> Done!\n`.green);

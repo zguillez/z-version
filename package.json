@@ -1,6 +1,6 @@
 {
   "name": "z-version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Tools for package files",
   "keywords": [
     "ssh",
@@ -15,6 +15,9 @@
     "url": "https://github.com/zguillez"
   },
   "main": "index.js",
+  "bin": {
+    "zversion": "index-cli.js"
+  },
   "scripts": {
     "clean": "rimraf .temp/*",
     "lint": "eslint index.js src/*.js bin/*.js --fix || true",
