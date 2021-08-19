@@ -35,15 +35,15 @@ const zversion = require('z-version');
 ## Update package version
 
 ```
-zversion.version();
-zversion.version('minor');
-zversion.version('major');
+zversion.update();
+zversion.update('minor');
+zversion.update('major');
 ```
 
 ```
-zversion --version
-zversion --version --minor
-zversion --version --major
+zversion --update
+zversion --update --minor
+zversion --update --major
 ```
 
 # Contributing and issues
