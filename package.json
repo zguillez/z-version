@@ -1,6 +1,6 @@
 {
-  "name": "z-version",
-  "version": "0.1.6",
+  "name": "@zguillez/z-version",
+  "version": "0.2.1",
   "description": "Tools for package files",
   "keywords": [
     "ssh",
@@ -31,6 +31,7 @@
     "shelljs": "0.8.4"
   },
   "devDependencies": {
+    "@zguillez/z-git": "^0.1.13",
     "colors": "1.4.0",
     "eslint": "7.32.0",
     "eslint-config-google": "0.14.0",

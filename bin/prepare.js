@@ -7,6 +7,7 @@ const replace = require('replace');
 const shell = require('shelljs');
 const argv = require('minimist')(process.argv.slice(2));
 const config = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../package.json'), 'utf8'));
+const zgit = require('@zguillez/z-git');
 // -----------------------------------
 const version = config.version.split('.');
 if (argv.major) {
@@ -27,7 +28,5 @@ replace({
   silent: true,
 });
 console.log(`=> Package update from version`.green, `${config.version}`.yellow, `to`.green, `${version.join('.')}`.yellow);
-shell.exec(`git add --all`);
-shell.exec(`git commit -m update`);
-shell.exec(`git push origin main`);
+zgit.push('master', 'update');
 console.log(`=> Done!\n`.green);
