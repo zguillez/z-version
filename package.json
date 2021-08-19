@@ -1,0 +1,39 @@
+{
+  "name": "z-version",
+  "version": "0.0.2",
+  "description": "Tools for package files",
+  "keywords": [
+    "ssh",
+    "nodejs",
+    "zguillez"
+  ],
+  "repository": "https://github.com/zguillez/z-ssh",
+  "license": "MIT",
+  "author": {
+    "name": "Guillermo de la Iglesia",
+    "email": "mail@zguillez.io",
+    "url": "https://github.com/zguillez"
+  },
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .temp/*",
+    "lint": "eslint index.js src/*.js bin/*.js --fix || true",
+    "prepare": "npm run lint && npm run test && sort-package-json &&  bin/prepare.js",
+    "test": "jest --coverage",
+    "test_": "node ./example/index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "replace": "^1.2.1",
+    "shelljs": "0.8.4"
+  },
+  "devDependencies": {
+    "colors": "1.4.0",
+    "eslint": "7.32.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-plugin-html": "6.1.2",
+    "jest": "^27.0.6",
+    "rimraf": "3.0.2",
+    "sort-package-json": "^1.50.0"
+  }
+}
