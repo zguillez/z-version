@@ -1,9 +1,9 @@
 {
   "name": "@zguillez/z-version",
-  "version": "0.2.2",
+  "version": "2.0.1",
   "description": "Tools for package files",
   "keywords": [
-    "ssh",
+    "package",
     "nodejs",
     "zguillez"
   ],

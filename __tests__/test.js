@@ -1,4 +1,7 @@
-// Const scripts = require('../src/static/scripts');
-test('dummy test', () => {
-  // Expect(scripts.hello).toBe('test ok!');
+const app = require('../src/Zversion');
+test('app test', () => {
+  expect(app.update()).toBeUndefined();
+  expect(app.update('minor')).toBeUndefined();
+  expect(app.update('major')).toBeUndefined();
 });
+

@@ -25,6 +25,7 @@ class Zversion {
     } else {
       this.version[2] = Number(this.version[2]) + 1;
     }
+    /* istanbul ignore next */
     replace({
       regex: `"version": "${this.file.version}"`,
       replacement: `"version": "${this.version.join('.')}"`,
