@@ -14,8 +14,8 @@
 ## Install
 
 ```
-npm i z-version --save-dev
-yarn add z-version --dev
+npm i @zguillez/z-version --save-dev
+yarn add @zguillez/z-version --dev
 ```
 
 # Usage

@@ -1,6 +1,6 @@
 {
   "name": "@zguillez/z-version",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Tools for package files",
   "keywords": [
     "ssh",
@@ -19,25 +19,24 @@
     "zversion": "index-cli.js"
   },
   "scripts": {
-    "clean": "rimraf .temp/*",
+    "clean": "find ./ -name .DS_Store -exec rm -f {} \\;",
     "lint": "eslint index.js src/*.js bin/*.js --fix || true",
     "prepare": "npm run lint && npm run test && sort-package-json &&  bin/prepare.js",
     "test": "jest --coverage",
-    "test_": "node ./example/index.js"
+    "test_": "node ./example/index.js",
+    "deploy": "npm publish --access=public"
   },
   "dependencies": {
-    "minimist": "^1.2.5",
-    "replace": "^1.2.1",
-    "shelljs": "0.8.4"
+    "replace": "^1.2.1"
   },
   "devDependencies": {
-    "@zguillez/z-git": "^0.1.13",
-    "colors": "1.4.0",
+    "@zguillez/z-git": "^0.1.18",
+    "@zguillez/z-log": "^0.1.15",
+    "@zguillez/z-version": "^0.2.1",
     "eslint": "7.32.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-html": "6.1.2",
     "jest": "^27.0.6",
-    "rimraf": "3.0.2",
     "sort-package-json": "^1.50.0"
   }
 }
