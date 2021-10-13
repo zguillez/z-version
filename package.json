@@ -1,13 +1,13 @@
 {
   "name": "@zguillez/z-version",
-  "version": "4.0.1",
+  "version": "5.0.1",
   "description": "Tools for package files",
   "keywords": [
     "package",
     "nodejs",
     "zguillez"
   ],
-  "repository": "https://github.com/zguillez/z-ssh",
+  "repository": "https://github.com/zguillez/z-version",
   "license": "MIT",
   "author": {
     "name": "Guillermo de la Iglesia",
@@ -27,12 +27,14 @@
     "test_": "node ./example/index.js"
   },
   "dependencies": {
+    "colors": "^1.4.0",
+    "minimist": "^1.2.5",
     "replace": "^1.2.1"
   },
   "devDependencies": {
     "@zguillez/z-git": "^0.1.21",
     "@zguillez/z-log": "^0.1.18",
-    "@zguillez/z-version": "^2.0.1",
+    "@zguillez/z-version": "^4.0.1",
     "eslint": "8.0.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-html": "6.2.0",
