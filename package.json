@@ -1,6 +1,6 @@
 {
   "name": "@zguillez/z-version",
-  "version": "8.0.1",
+  "version": "9.0.1",
   "description": "Tools for package files",
   "keywords": [
     "package",
@@ -32,9 +32,9 @@
     "replace": "^1.2.1"
   },
   "devDependencies": {
-    "@zguillez/z-git": "^0.1.21",
-    "@zguillez/z-log": "^0.1.18",
-    "@zguillez/z-version": "^6.0.1",
+    "@zguillez/z-git": "^0.1.25",
+    "@zguillez/z-log": "^0.1.20",
+    "@zguillez/z-version": "^8.0.1",
     "eslint": "8.18.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-html": "6.2.0",
