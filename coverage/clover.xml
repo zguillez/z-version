@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656511049426" clover="3.2.0">
-  <project timestamp="1656511049426" name="All files">
+<coverage generated="1676234764491" clover="3.2.0">
+  <project timestamp="1676234764491" name="All files">
     <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="21" coveredelements="21" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="Zversion.js" path="/Users/zguillez/Documentos/Repositorios/_tools/z-version/src/Zversion.js">
       <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
