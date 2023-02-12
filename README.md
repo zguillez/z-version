@@ -1,10 +1,5 @@
 # z-version
 
-[![npm version](https://badge.fury.io/js/z-version.svg)](https://badge.fury.io/js/z-version)
-[![Build Status](https://travis-ci.org/zguillez/z-version.svg?branch=master)](https://travis-ci.org/zguillez/z-version)
-[![Installs](https://img.shields.io/npm/dt/z-version.svg)](https://coveralls.io/r/zguillez/z-version)
-[![Gitter](https://badges.gitter.im/zguillez/z-version.svg)](https://gitter.im/zguillez/z-version?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 > [Zguillez](https://zguillez.io) | Guillermo de la Iglesia
 
 ## Tools for package files
@@ -48,15 +43,21 @@ zversion --update --major
 
 # Contributing and issues
 
-Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better then please submit an issue or send me an [email](mailto:mail@zguillez.io).
+Contributors are welcome, please fork and send pull requests! If you have any ideas on how to make this project better
+then please submit an issue or send me an [email](mailto:guillermo@delaiglesia.email).
 
 # License
 
-©2021 Zguillez.io
+©2023 Zguillez.IO
 
-Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this project retain their original licenses.
+Original code licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) Open Source projects used within this
+project retain their original licenses.
 
 # Changelog
+
+### v12.0.0 (February 12, 2023)
+
+* Update dependencies
 
 ### v0.1.0 (August 19, 2021)
 
